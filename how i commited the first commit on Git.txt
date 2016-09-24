@@ -1,0 +1,37 @@
+cd d:
+cd 1LINK/HW/W2/anhnv/anhnv	(source code directory)
+git init [folder_name]		(can ignore folder_name)
+git add main.cpp
+git add controller.h
+git add io.h
+git add student.h
+git status
+git add main.cpp
+git add controller.h
+git add io.h
+git add student.h
+git commit -m "test git commiting"
+
+*create a new project named "Bai-tap-tuan-02-anhnv" on github*
+
+git clone https://github.com/anhnv1sec/Bai-tap-tuan-02-anhnv
+cd Bai-tap-tuan-02-anhnv
+echo "# this is the first commit!" > 1stCommit.txt	//echo "content" > file.extension
+git add 1stCommit.txt
+git commit -m "the anhnv's first commit!"
+git push origin master		//enter user.name and passwd -> DONE!
+
+
+
+
+---------------------------------------------------------------------
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+-> Solution:
+git remote add origin [URL to repository]
+---------------------------------------------------------------------
+
